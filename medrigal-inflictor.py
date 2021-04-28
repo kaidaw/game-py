@@ -5,7 +5,7 @@ import os
 import time
 
 def clear(text=None):
-  os.system("cls")
+  os.system("clear")
   if text:
     print text
 
@@ -84,7 +84,7 @@ kaboom = """
 
           |\ 
           | \  
-          |  \                  /\
+          |  \                  /
           |   \          /|    //\\
           | |\ \        / |   //  \\
           | | \ \      /  |  //    \\
